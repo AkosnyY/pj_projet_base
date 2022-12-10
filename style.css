@@ -39,12 +39,13 @@ body {
 }
 
 .page {
-    background-color: red;
+    margin: 0px;
+    padding: 0px;
 }
 
 .entete {
     background-color: rgb(208, 17, 112);
-    padding: 10px
+    padding: 10px;
 }
 
 .titre {
@@ -61,22 +62,32 @@ body {
 }
 
 .colonnes {
-    background-color: deepskyblue;
+    background-color: rgb(243, 16, 148);
+    margin: 10px;
+    ;
 }
 
 .colonne_menu {
-    background-color: gold;
+    background-color: rgb(243, 16, 148);
+
 }
 
 .colonne_contenu {
     background-color: rgb(192, 195, 236);
-    margin: 11px;
+    margin-block: 20px;
+    list-style-type: none;
+    color: black;
+}
+
+.colonne_menu ul {
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
     background-color: white;
     margin: 10px;
-    margin-top: 20PX;
+    margin-bottom: 20PX;
     border-bottom: 5px solid purple;
 }
 
@@ -94,28 +105,51 @@ strong {
 }
 
 em {
-    text-emphasis-color: ;
+    text-emphasis-style: initial;
 
 }
 
 .introduction {
     font-style: italic;
-    border: none;
+    border: 10px;
+    border-width: 10px;
+    border-style: dotted;
     margin: 10px;
     border-radius: 10px;
 }
 
-a {
+.link {
     font-weight: 900;
 }
-.hover{
-    color:blue;
-    text-decoration:none ;
+
+.hover {
+    color: blue;
+    text-decoration: none;
+
 }
 
 .pieddepage {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(6, 2, 2);
     color: brown;
     text-align: center;
-    line-height: 15px;
+    line-height: 60px;
+}
+
+.colonne_menu li {
+    list-style-type: none;
+    background-color: #f6c100;
+    display: block;
+    margin: 5px;
+    text-align: center;
+}
+
+.colonne_menu li:hover {
+    background-color: black;
+    display: block;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+
 }
